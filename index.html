@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Financias Pessoais</title>
+  </head>
+  <body>
+    <h1>Controle de Financias</h1>
+    <main>
+      <form>
+        <h2>Nova Transação</h2>
+        <!--Vamos aqui colocar o id oculto de cada transação, para quando precisarmos procurar a transação por id ela seja mandada para o servidor sem aparecer na interface do usuário.-->
+        <input type="hidden" id="id" name="id" />
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" />
+        <label for="amount">Valor:</label>
+        <input type="number" step="0.01" id="amount" name="amount" />
+        <br /><br />
+        <button>Salvar</button>
+        <!--Aqui vamos colocar um id para inserirmos o saldo de forma donamica com js. Usamos o span para aplicar estilo ou manipular uma parte específica do conteúdo dentro de outro elemento HTML sem afetar a estrutura do documento.-->
+        <h2>Saldo:<span id="balance"></span></h2>
+      </form>
+      <div>
+        <h2>Histórico de Transações</h2>
+        <!--Usamos o id para colocarmos aqui o histórico das transações de forma dinamica com o DOM do js-->
+        <section id="transactions"></section>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

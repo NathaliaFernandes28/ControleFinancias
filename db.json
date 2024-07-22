@@ -1,0 +1,249 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "name": "Freela",
+      "amount": 300
+    },
+    {
+      "name": "Salário",
+      "amount": 3200,
+      "id": "3"
+    },
+    {
+      "name": "Conta de água",
+      "amount": -60,
+      "id": "4"
+    },
+    {
+      "name": "Conta de luz",
+      "amount": -150,
+      "id": "5"
+    },
+    {
+      "id": "f1ec",
+      "name": "conta de luz",
+      "amount": 300
+    },
+    {
+      "id": "e67e",
+      "name": "coca-cola",
+      "amount": -50
+    },
+    {
+      "id": "b7ea",
+      "name": "conta de água ",
+      "amount": 100000
+    },
+    {
+      "id": "eee5",
+      "name": "conta de luz",
+      "amount": 800
+    },
+    {
+      "id": "3dab",
+      "name": "conta de luz",
+      "amount": 10000
+    },
+    {
+      "id": "0c60",
+      "name": "conta de luz",
+      "amount": -100000
+    },
+    {
+      "id": "d69e",
+      "name": "conta de luz",
+      "amount": -50
+    },
+    {
+      "id": "3984",
+      "name": "Conta de luz janeiro ",
+      "amount": -8700
+    },
+    {
+      "id": "8ea7",
+      "name": "conta de luz",
+      "amount": 34444
+    },
+    {
+      "id": "4085",
+      "name": "conta de luz",
+      "amount": 3333
+    },
+    {
+      "id": "8117",
+      "name": "pão ",
+      "amount": -20
+    },
+    {
+      "id": "b14c",
+      "name": "comida",
+      "amount": -3000
+    },
+    {
+      "id": "14b8",
+      "name": "ssss",
+      "amount": 5555
+    },
+    {
+      "id": "09c9",
+      "name": "ssss",
+      "amount": 5555
+    },
+    {
+      "id": "f1a7",
+      "name": "ssss",
+      "amount": -11000
+    },
+    {
+      "id": "ce7f",
+      "name": "sss",
+      "amount": -110
+    },
+    {
+      "id": "a441",
+      "name": "sss",
+      "amount": 333
+    },
+    {
+      "id": "82ea",
+      "name": "ssss",
+      "amount": 33
+    },
+    {
+      "id": "6740",
+      "name": "conta de luz",
+      "amount": 7825
+    },
+    {
+      "id": "208f",
+      "name": "conta de luz",
+      "amount": -7825
+    },
+    {
+      "id": "d7df",
+      "name": "lanche da tarde ",
+      "amount": -5
+    },
+    {
+      "id": "2179",
+      "name": "lanche da tarde ",
+      "amount": 5
+    },
+    {
+      "id": "16f8",
+      "name": "conta de luz ",
+      "amount": 900
+    },
+    {
+      "id": "cdca",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "70d3",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "a553",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "f612",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "a2a7",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "b9d1",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "1941",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "8afa",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "f6c6",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "f721",
+      "name": "wwww",
+      "amount": 888
+    },
+    {
+      "id": "a9b7",
+      "name": "wwww",
+      "amount": 7777
+    },
+    {
+      "id": "b8da",
+      "name": "conta de luz",
+      "amount": 500
+    },
+    {
+      "id": "bdc6",
+      "name": "",
+      "amount": null
+    },
+    {
+      "id": "b706",
+      "name": "",
+      "amount": null
+    },
+    {
+      "id": "0015",
+      "name": "lanche",
+      "amount": -20
+    },
+    {
+      "id": "80b1",
+      "name": "lanche",
+      "amount": -480
+    },
+    {
+      "id": "ac7c",
+      "name": "conta de luz",
+      "amount": 600
+    },
+    {
+      "id": "0fc3",
+      "name": "conta de luz",
+      "amount": 1000
+    },
+    {
+      "id": "8fec",
+      "name": "e",
+      "amount": 1
+    },
+    {
+      "id": "a9e2",
+      "name": "conta de luz",
+      "amount": 2
+    },
+    {
+      "id": "ad65",
+      "name": "Salário",
+      "amount": 2000
+    },
+    {
+      "id": "4f0f",
+      "name": "Salário ",
+      "amount": 3000
+    }
+  ]
+}

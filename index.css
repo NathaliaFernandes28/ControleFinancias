@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  background-color: #1c1a1d;
+  color: #fff;
+}
+main {
+  display: flex;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+/*Vamos pegar o form que é filho direto do elemento main (representado pelo sinal >) */
+main > form {
+  /*O código flex: 1; é uma abreviação de uma propriedade CSS que permite aos itens dentro de um contêiner flexível (display: flex) crescer, encolher e definir sua base de tamanho.*/
+  /*A propriedade flex é uma abreviação que define três propriedades:
+  flex-grow | flex-shrink | flex-basis
+  flex-grow: Este valor define a capacidade do item de crescer para preencher o espaço disponível no contêiner. Com flex-grow: 1;, o item pode crescer igualmente em relação aos outros itens no mesmo contêiner.
+  flex-shrink: Este valor define a capacidade do item de encolher, caso necessário. Com flex-shrink: 1;, o item pode encolher igualmente em relação aos outros itens no mesmo contêiner.
+  flex-basis: Este valor define o tamanho inicial do item antes de distribuir o espaço restante no contêiner flexível. Com flex-basis: 0%;, o item começa com zero tamanho inicial e então cresce para preencher o espaço disponível.*/
+  flex: 1;
+}
+/*Vai pegar a div que é filha do elemento main(Representado pelo sinal >)*/
+main > div {
+  flex: 3;
+}
+h1 {
+  margin: 2rem 2rem 0;
+}
+h2 {
+  background-color: #39353b;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+}
+label {
+  /*Display block => Define que os elementos <label> devem ser exibidos como elementos de bloco (block-level). Elementos de bloco ocupam toda a largura disponível de seu contêiner pai e começam em uma nova linha. Isso é diferente de elementos inline, que ocupam apenas o espaço necessário e permitem que outros elementos fiquem ao seu lado na mesma linha. Isso é útil para garantir que o <label> fique acima do campo de formulário que ele está descrevendo, em vez de ao lado dele.*/
+  display: block;
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.2em;
+}
+input {
+  background-color: #39353b;
+  border: 0;
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 0.75rem;
+  /*Faz com que a largura do elemento(input) ocupe todo o espaço do seu container*/
+  width: 100%;
+  font-size: 1.2em;
+}
+/*Vamos cuidar dos buttons*/
+button {
+  background-color: #6bf394;
+  border: 0;
+  border-radius: 0.25rem;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  cursor: pointer;
+  /* filter: brightness(0.9); é uma propriedade CSS que ajusta o brilho de um elemento. A função brightness ajusta o brilho de um elemento. O valor fornecido à função determina o nível de brilho:*/
+  filter: brightness(0.9);
+}
+/*Vamos pegar o button que é filho, que está dentro, do form(formulário)*/
+form > button {
+  margin-top: 1rem;
+  /*Vamos colocar o button do tamanho do container, ne nesse caso é o formulário*/
+  width: 100%;
+}
+/*O seletor button + button é um seletor de adjacência direta. Ele seleciona o segundo <button> que aparece imediatamente após o primeiro <button>.
+Isso significa que o estilo será aplicado apenas a um <button> que vem diretamente depois de outro <button>, sem nenhum outro elemento entre eles. Na aplicação, com esse trecho de código, vamos modificar os buttons que criamos dinamicamente no js, os buttons de excluir e editar. */
+button + button {
+  margin-left: 1rem;
+}
+/*Vamos fazer com que  o container de informação que vai ser renderizado na página, o histórico da transação ocupe 100% do seu container.*/
+.transactions {
+  width: 100%;
+}
+/*Agora vamos tratar com as informações em si sobre as transações salvas no histórico da transação.*/
+.transaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #39353b;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.3em;
+}
+/* .transaction:first-child seleciona o primeiro elemento que é filho dentro do seu pai e que tem a classe transaction.
+:first-child é uma pseudo-classe que aplica o estilo ao primeiro elemento filho do seu pai.*/
+.transaction:first-child {
+  margin-top: 1rem;
+}
+/* .transaction > span seleciona qualquer elemento <span> que seja um filho direto de um elemento com a classe transaction. */
+/*Span => Vamos pegar os butões excluir e editar que criamos dinamicamente com JS e criamos como span.*/
+.transaction > span {
+  flex: 1;
+}
+/*Vamos pegar a classe do amount(valor) criado dinamicamente com js e estiliza-lo*/
+.transaction-amount {
+  margin-right: 4rem;
+  text-align: end;
+}
+/*Vamos pegar a classe do amount(valor) que vai dar entrada como credit(credito) e vamos estiliza-lo.*/
+.transaction-amount.credit {
+  color: #6bf394;
+}
+/*Vamos pegar a classe do amount(valor) que vai dar entrada como debit(debito) e vamos estiliza-lo.*/
+.transaction-amount.debit {
+  color: #f64348;
+}
+/*Vamos agora pegar a classe do botão de editar a transação criada dinamicamente com js e vamos estiliza-lo.*/
+.edit-btn {
+  background-color: #7bb4ff;
+}
+/*Vamos agora pegar a classe do botão de deletar transação criada dimanicamente com js e vamos estiliza-lo*/
+.delete-btn {
+  background-color: #f64348;
+}
